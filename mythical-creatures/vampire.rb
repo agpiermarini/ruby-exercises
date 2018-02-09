@@ -1,7 +1,7 @@
 class Vampire
 
-attr_reader :name
-            :pet
+attr_reader :name,
+            :pet,
             :thirsty
 
 def initialize(name, pet = "bat", thirsty = true)
