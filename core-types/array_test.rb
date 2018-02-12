@@ -213,7 +213,7 @@ class ArrayTest < Minitest::Test
   end
 
   def test_pop ##Removes the first element of self and returns it (shifting all other elements down by one). Returns nil if the array is empty.
-    skip
+    #skip
     assert_equal nil, [].pop
     assert_equal :a, [:a].pop
     assert_equal :b, [:a, :b].pop
